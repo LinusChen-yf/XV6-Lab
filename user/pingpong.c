@@ -1,6 +1,5 @@
 #include "kernel/types.h"
 #include "user/user.h"
-#include "kernel/fcntl.h"
 
 #define RD 0
 #define WR 1
