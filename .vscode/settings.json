@@ -3,6 +3,10 @@
         "cstdio": "c",
         "types.h": "c",
         "user.h": "c",
-        "fcntl.h": "c"
+        "fcntl.h": "c",
+        "atomic": "c",
+        "*.tcc": "c",
+        "fstream": "c",
+        "sstream": "c"
     }
 }
