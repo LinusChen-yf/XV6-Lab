@@ -26,6 +26,7 @@ void transmit_data(int rpipe[2], int lpipe[2], int first_data){
     close(rpipe[WR]);
 }
 
+__attribute__((noreturn))
 void primes(int lpipe[2]){
     int first_data;
     if (first_prime(lpipe, &first_data) == 0){
